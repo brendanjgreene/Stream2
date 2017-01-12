@@ -22,3 +22,14 @@ ctrl + left click on variable   go to definition
 ctrl + q    show documentation for function/method
 ctrl + alt + l  auto-format file
 ctrl + alt + o  auto-arrange imports
+
+ ADDITIONAL PERSPECTIVES FROM PEOPLE WE LIKE
+
+PyCharm Quick Start
+-https://youtu.be/BPC-bGdBSM8
+PyCharm Setup
+-https://youtu.be/5rSBPGGLkW0
+PyCharm UI & Projects
+-https://youtu.be/wCJ5kiSmvUY
+Running Python Code
+-https://youtu.be/JLfd9LOdu_U
