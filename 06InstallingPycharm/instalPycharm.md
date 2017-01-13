@@ -11,6 +11,9 @@ https://www.jetbrains.com/pycharm/download/
 
 A full list of PyCharm shortcuts can be found here: https://www.jetbrains.com/pycharm/docs/PyCharm_ReferenceCard.pdf.
 
+For MAC
+https://www.jetbrains.com/pycharm/docs/PyCharm_ReferenceCard_mac.pdf.
+
 ctrl + left/right   move left/right one word
 shift + left/right  select letter to left/right
 ctrl + shift + left/right   select word to left/right
