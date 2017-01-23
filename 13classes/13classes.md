@@ -1,7 +1,7 @@
-LEARNING OUTCOMES
+#LEARNING OUTCOMES
 
-Topics include:
+##Topics include:
 
-The Bird Class
-Inheritance
-The Fractions Class
+####The Bird Class
+####Inheritance
+####The Fractions Class
