@@ -10,3 +10,4 @@
 
 ####Useful link
 -https://en.wikipedia.org/wiki/Random_number_generator_attack
+-https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns
