@@ -19,3 +19,6 @@ CREATE TABLE orders (
         FOREIGN KEY (person_id) REFERENCES people(id),
         CHECK(amount>0)
 );
+
+
+CREATE INDEX first_name_index ON people (first_name);
