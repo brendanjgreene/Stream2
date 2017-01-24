@@ -7,3 +7,6 @@
 ###How to update parts of an existing row
 ###How to delete all rows
 ###How to delete a specific row
+
+####useful link
+-https://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html#function_date-format
