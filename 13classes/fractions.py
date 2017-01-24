@@ -26,3 +26,6 @@ class Fraction:
 
     def __repr__(self):
         return '%s/%s' % (self.num, self.den)
+
+    def __eq__(self, other):
+        return self - other
