@@ -1,7 +1,12 @@
 class Fraction:
     def __init__(self, numerator, denominator):
-        self.num = numerator
-        self.den = denominator
+        self.num = int(numerator / gcd(abs(numerator), abs(denominator)))
+        self.den = int(denominator / gcd(abs(numerator), abs(denominator)))
+        if self.den < 0:
+            self.den = abs(self.den)
+            self.num = -1 * self.num
+        elif self.den == 0:
+            raise ZeroDivisionError
 
     def __add__(self, other):
         num = self.num * other.den + self.den * other.num
@@ -21,4 +26,3 @@ class Fraction:
 
     def __repr__(self):
         return '%s/%s' % (self.num, self.den)
-
