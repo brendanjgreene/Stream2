@@ -21,4 +21,4 @@ INSERT INTO mydb.orders (
 	(56.1, 4),
 	(9.05, 4);
 
-SELECT DISTINCT(person_id) FROM `mydb`.`orders`;
+SELECT DISTINCT(person_id) FROM mydb.orders;
