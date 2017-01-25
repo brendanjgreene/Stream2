@@ -1,5 +1,9 @@
 USE mydb;
 
+DROP TABLE profiles;
+DROP TABLE orders;
+DROP TABLE people;
+
 CREATE TABLE people (
         id INTEGER AUTO_INCREMENT,
         first_name VARCHAR(50) NOT NULL,
