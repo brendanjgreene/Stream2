@@ -6,3 +6,6 @@
 ###Query what tables are available in your database
 ###Query what columns and column types your tables contain
 ###Close connections and why you need to
+
+
+look for work in mysqlProject repository
