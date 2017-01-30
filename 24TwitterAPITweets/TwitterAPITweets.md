@@ -10,3 +10,6 @@
 ####Harvest Tweet Attributes
 ####Frequency Analysis
 ####Prettify the Output
+
+See stackoverflow: http://stackoverflow.com/questions/27900451/convert-tweepy-status-object-into-json
+
