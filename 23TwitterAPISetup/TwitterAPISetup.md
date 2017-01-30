@@ -19,3 +19,10 @@ https://dev.twitter.com/rest/public/rate-limiting
 Agreements:
 
 https://dev.twitter.com/overview/terms/agreement-and-policy
+
+Find out more about get_places here:http://docs.tweepy.org/en/latest/api.html?highlight=trends_place#API.trends_place
+ 
+
+work for this unit in twitter repository
+
+
