@@ -11,3 +11,11 @@
 Brendans App
 twitter tools for code institute lessons
 http://what.ie
+
+Rate limit:
+
+https://dev.twitter.com/rest/public/rate-limiting
+
+Agreements:
+
+https://dev.twitter.com/overview/terms/agreement-and-policy
