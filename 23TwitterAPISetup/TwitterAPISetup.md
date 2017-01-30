@@ -7,3 +7,7 @@
 ###Register Your App with Twitter
 ###What’s Trending?
 ###What’s Trending in Multiple Locations?
+
+Brendans App
+twitter tools for code institute lessons
+http://what.ie
