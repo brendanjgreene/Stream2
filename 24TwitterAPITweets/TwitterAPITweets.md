@@ -13,3 +13,5 @@
 
 See stackoverflow: http://stackoverflow.com/questions/27900451/convert-tweepy-status-object-into-json
 
+Here’s a good description of utf-8:http://stackoverflow.com/questions/2241348/what-is-unicode-utf-8-utf-16
+
