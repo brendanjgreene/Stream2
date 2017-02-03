@@ -7,3 +7,7 @@
 ###Colour scales
 
 ###Using Tooltips
+
+lessons finished
+-D3Scales intro
+-
