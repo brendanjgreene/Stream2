@@ -1,8 +1,9 @@
 var body = d3.select("body");
 
 body.append("p").text("I Love Data");
-body.append("p").text("I Love Data");
-body.append("p").text("I Love Data");
+body.append("p").text("Grace Loves Data");
+body.append("p").text("Medb Loves Data");
+body.append("p").text("Tess Hates Data");
 
 var myDiv = d3.select("div");
 
