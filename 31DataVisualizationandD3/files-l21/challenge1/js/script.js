@@ -18,5 +18,7 @@ myDiv.attr('style','background-color:#ddd; border:solid 4px black; text-align:ce
 
 myDiv.classed("smallBox", true);
 myDiv.classed("smallBox", false);
-myDiv.attr("style", "")
-myDiv.classed("red", true)
+myDiv.attr('style','border:solid 4px black; text-align:center');
+myDiv.classed("red", true);
+myDiv.classed("smallBox", true);
+
