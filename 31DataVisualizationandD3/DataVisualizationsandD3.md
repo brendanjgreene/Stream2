@@ -16,4 +16,5 @@ i will list the units i have reviewed to help me keep track of what i have done
 -Data Visualisations & D# Intro
 -What is D3?
 -Scalable Vector Graphics
--D
+-D3 Setup
+-D3 Selectors
