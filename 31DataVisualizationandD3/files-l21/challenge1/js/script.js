@@ -1,4 +1,4 @@
-var body = d3.select("body")
+var body = d3.select("body");
 
 body.append("p").text("I Love Data")
 body.append("p").text("I Love Data")
@@ -15,3 +15,5 @@ myDiv.attr('style','border:solid 4px black')
 myDiv.attr('style','background-color:#ddd; border:solid 4px black')
 
 myDiv.attr('style','background-color:#ddd; border:solid 4px black; text-align:center')
+
+myDiv.classed("smallBox", true);
