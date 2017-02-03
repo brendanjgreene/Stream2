@@ -26,7 +26,7 @@ svg.selectAll("rect")
    .enter()
    .append("rect")     
    .attr("x", function(d,i){return i * (30 + 1);})
-   .attr("y", function(d){return 300 - d;})   /* height is 300 */
+   .attr("y", function(d){return 300 - d * 5;})   /* height is 300 */
    .attr("width", 30)
    .attr("height", function(d){return d * 5;});
 </script>
