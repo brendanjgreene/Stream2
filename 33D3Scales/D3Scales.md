@@ -9,5 +9,7 @@
 ###Using Tooltips
 
 lessons finished
--D3Scales intro
--
+-D3 Scales intro
+-D3 Scales
+-Color Scales
+-Tooltips
