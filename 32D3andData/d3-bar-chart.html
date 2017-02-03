@@ -14,7 +14,7 @@ body {
 </body>
 <script>
 //place you D3 code here
-var myData = [ 10, 15, 20, 30, 45, 50, 40, 45, 50, 40, 55, 35 ];
+var myData = [ 10, 15, 20, 30, 45, 50, 40, 45, 50, 40, 25, 35 ];
 var svg = d3.select("body")
             .append("svg")
             .attr("width",500)
@@ -26,7 +26,7 @@ svg.selectAll("rect")
    .enter()
    .append("rect")     
    .attr("x", function(d,i){return i * (30 + 1);})
-   .attr("y", 20)
+   .attr("y", function(d){return 300 - d;})   /* height is 300 */
    .attr("width", 30)
    .attr("height", function(d){return d * 5;});
 </script>
