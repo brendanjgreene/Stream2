@@ -11,3 +11,5 @@ myDiv.append("p").text("paragraph inside the div")
 myDiv.attr('style','background-color:#ddd')
 
 myDiv.attr('style','border:solid 4px black')
+
+myDiv.attr('style','background-color:#ddd; border:solid 4px black')
