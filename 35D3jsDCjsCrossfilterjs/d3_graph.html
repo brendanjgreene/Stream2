@@ -45,7 +45,7 @@ data.forEach(function(d) {
 print_filter("data");
 
 var dateDim = ndx.dimension(function(d) {return d.date;});
-var hits = dateDim.group().reduceSum(function(d) {return d.total;});
+var hits = dateDim.group().reduceSum(dc.pluck('total'));
 
 </script>	
 </body>
