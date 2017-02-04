@@ -47,6 +47,9 @@ print_filter("data");
 var dateDim = ndx.dimension(function(d) {return d.date;});
 var hits = dateDim.group().reduceSum(dc.pluck('total'));
 
+var minDate = dateDim.bottom(1)[0].date;
+var maxDate = dateDim.top(1)[0].date;
+
 </script>	
 </body>
 </html>
