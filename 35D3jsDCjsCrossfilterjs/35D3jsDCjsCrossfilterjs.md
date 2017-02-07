@@ -11,4 +11,5 @@
 -Dimensional Charting With D3.js, DC.js and Crossfilter.js—Intro
 -Crossfilter Basic
 -Creating Graphs
+-Interdependence
 -
