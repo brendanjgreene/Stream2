@@ -42,17 +42,29 @@
      var dateDim = ndx.dimension(function (d) {
        return d.date;
      });
-     var hits = dateDim.group().reduceSum(function (d) {
+     /**var hits = dateDim.group().reduceSum(function (d) {
        return d.total;
+     });*/
+     var status_200 = dateDim.group().reduceSum(function(d){
+      return d.http_200;
      });
+     var status_302 = dateDim.group().reduceSum(function(d){
+      return d.http_302;
+     });
+     var status_404 = dateDim.group().reduceSum(function(d){
+      return d.http_404;
+     });
+
      var minDate = dateDim.bottom(1)[0].date;
      var maxDate = dateDim.top(1)[0].date;
 
      hitslineChart
      .width(500).height(200)
      .dimension(dateDim)
-     .group(hits)
-     .brushOn(true)
+     .group(status_200, "200")
+     .stack(status_302, "302")
+     .stack(status_404, "404")
+     .brushOn(false)
      .x(d3.time.scale().domain([minDate, maxDate]))
      .yAxisLabel("Hits per day");
 
