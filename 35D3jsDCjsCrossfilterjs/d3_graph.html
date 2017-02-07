@@ -67,6 +67,7 @@
      .renderArea(true)
      .brushOn(false)
      .x(d3.time.scale().domain([minDate, maxDate]))
+     .legend(dc.legend().x(450).y(10).itemHeight(14).gap(10))
      .yAxisLabel("Hits per day");
 
 
