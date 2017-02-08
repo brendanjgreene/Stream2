@@ -10,6 +10,15 @@
   <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
  
   <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/dc/1.7.0/dc.css">
+
+  <style>
+    table{
+      border-collapse: collapse;
+    }
+    table, th, td{
+      border:solid 2px;
+    }
+  </style>
  
   <script type='text/javascript'>
    window.onload = function () {
@@ -18,17 +27,23 @@
 
      var data = [
      {date: "12/27/2012", http_404: 20, http_200: 190, http_302: 100},
-     {date: "12/28/2012", http_404: 20, http_200: 10, http_302: 100},
+     {date: "11/28/2012", http_404: 20, http_200: 10, http_302: 100},
      {date: "12/29/2012", http_404: 10, http_200: 300, http_302: 200},
-     {date: "12/30/2012", http_404: 200, http_200: 90, http_302: 0},
+     {date: "08/30/2012", http_404: 200, http_200: 90, http_302: 0},
      {date: "12/31/2012", http_404: 20, http_200: 90, http_302: 0},
      {date: "01/01/2013", http_404: 20, http_200: 90, http_302: 0},
-     {date: "01/02/2013", http_404: 100, http_200: 10, http_302: 1},
-     {date: "01/03/2013", http_404: 200, http_200: 90, http_302: 0},
+     {date: "01/12/2013", http_404: 100, http_200: 10, http_302: 1},
+     {date: "07/03/2013", http_404: 200, http_200: 90, http_302: 0},
      {date: "01/04/2013", http_404: 27, http_200: 90, http_302: 0},
-     {date: "01/05/2013", http_404: 28, http_200: 90, http_302: 0},
+     {date: "05/15/2013", http_404: 28, http_200: 90, http_302: 0},
      {date: "01/06/2013", http_404: 29, http_200: 200, http_302: 1},
-     {date: "01/07/2013", http_404: 19, http_200: 200, http_302: 100}
+     {date: "06/27/2013", http_404: 19, http_200: 200, http_302: 100},
+     {date: "01/02/2011", http_404: 100, http_200: 10, http_302: 1},
+     {date: "01/23/2011", http_404: 200, http_200: 90, http_302: 0},
+     {date: "03/04/2014", http_404: 27, http_200: 90, http_302: 0},
+     {date: "01/15/2014", http_404: 28, http_200: 90, http_302: 0},
+     {date: "02/06/2015", http_404: 29, http_200: 200, http_302: 1},
+     {date: "01/07/2016", http_404: 19, http_200: 200, http_302: 100}
      ];
      var ndx = crossfilter(data);
      var parseDate = d3.time.format("%m/%d/%Y").parse;
